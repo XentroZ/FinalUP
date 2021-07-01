@@ -1,0 +1,264 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	overflow-x: hidden;
+}
+
+section{
+	text-align: center;
+}
+
+.container{
+	background-color: #86cee4;
+}
+
+.modalimg{
+	width: 100%;
+	margin: 10px 0px;
+	transition: 0.5s;
+}
+
+.modalimg:hover{
+	transform: scale(1.1);
+}
+
+.modalpelis{
+	font-size: 30px;
+	border-bottom: black solid;
+}
+
+.modalpelis:hover{
+	background-color: #A3D3E1;
+}
+
+h1{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 50px;
+	padding-top: 20px;
+	margin: 25px 0px;
+
+	
+	animation-name: welcome;
+	animation-iteration-count: infinite;
+	animation-duration: 3s;
+	animation-timing-function: ease-in-out;
+}
+
+.all{
+	margin-top: 20px;
+	border-top: #494949 solid;
+	padding-top: 50px;
+}
+
+@keyframes welcome {
+0% { transform: scale(0.8);
+}
+
+50% { transform: scale(1);
+		
+	}
+	
+100% { transform: scale(0.8);
+}
+}
+
+h2{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 35px;
+	padding: 20px 0px;
+}
+
+h3{
+    font-family: 'Castoro', serif;
+}
+
+h4{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 35px;
+}
+
+h5{
+	text-align: left;
+}
+
+p{
+    font-family: 'Castoro', serif;
+	font-size: 20px;
+}
+
+.noticia{
+	background-color: #A3D3E1;
+	text-align: center;
+	padding: 1em;
+}
+
+body{
+	background-image: url("../img/index/pattern.jpg")
+}
+
+.separador{
+	height: 50px;
+}
+
+.separador2{
+	height: 100px;
+}
+
+li{
+	margin: 5px 15px;
+	padding: 0px 10px;
+	border-radius: 5px;
+	font-family: 'Anton', sans-serif;
+	font-size: 18px;
+	text-align: center;
+}
+
+li:hover{
+	background-color: #1093BD;
+}
+
+.barra{
+	background-color: #121212;
+	position: fixed;
+	width: 100%;
+	z-index: 1;
+}
+
+.menuicon{
+	width: 45%;
+	margin: 0% 10%;
+}
+
+.anim{
+	position: fixed;
+	top: 0%;
+	right: -20%;
+	animation-name: alt;
+	animation-duration: 6s;
+	animation-fill-mode: forwards;
+	z-index: 1;
+}
+
+.alticon{
+	width: 30%;
+}
+
+@keyframes alt {
+0% { position: fixed;
+	transform: rotate(0deg);
+	 top: 0%;
+	 right: -20%;
+}
+
+100% { position: fixed;
+	transform: rotate(-360deg);
+	   top: 0%;
+	   right: 91%;
+}
+}
+
+footer{
+
+	color: aliceblue;
+}
+
+.pelis{
+	width: 100%;
+	transition: 1s;
+}
+
+.pelis:hover{
+	transform: scale(1.1);
+}
+
+.gif{
+	position: fixed;
+	bottom: 0%;
+	left: -15%;
+	width: 15%;
+	
+	animation-name: walk;
+	animation-timing-function: linear;
+	animation-duration: 7s;
+	animation-delay: 5s;
+}
+
+@keyframes walk {
+0% { position: fixed;
+	 bottom: 0%;
+	 left: -15%;
+}
+
+100% { position: fixed;
+	   bottom: 0%;
+	   left: 110%;
+}
+}
+
+footer{
+
+	color: aliceblue;
+}
+
+.similares{
+	width: 70%;
+}
+
+.simil{
+	background-color: #A3D3E1;
+	border: #000000 solid;
+}
+
+.hayao{
+	border-radius: 50%;
+}
+
+.funkobody{
+	position: fixed;
+	bottom: -8%;
+	right: -30%;
+}
+
+.funkohead{
+	position: fixed;
+	bottom: -9%;
+	right: -30%;
+	
+	animation-name: funko;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	animation-timing-function: ease-in-out;
+}
+
+.funko{
+	width: 40%;
+}
+
+@keyframes funko {
+0% { position: fixed;
+	 transform: rotate(-10deg);
+	 bottom: -9%;
+	 right: -30%;
+}
+	
+50%{
+     position: fixed;
+	 transform: rotate(0deg);
+	 bottom: -11%;
+	 right: -30%;
+	}
+
+100% { position: fixed;
+	   transform: rotate(10deg);
+	   bottom: -9%;
+	   right: -30;
+}
+}
+
+.formtxt{
+	text-align: left;
+}
+
+
